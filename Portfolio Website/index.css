@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.fullPageContainer{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width:100vw;
+}
+
+.navContainer{
+    width:100%;
+}
+
+.navname {
+    color: white;
+    border-radius: 1px;
+    border-width: 2px;
+    border-color: #4b6cc1 !important;
+}
+
+.navnavnames {
+    color: white !important;
+}
+
+.navburger {
+    color: white !important;
+    border-color: white !important;
+}
+
+.navbannerpage {
+    background-color: #191a1d;
+    background-size: cover;
+    height:600px;
+    width:100%;
+}
+
+.navimage {
+    height: 300px;
+    width: 300px;
+}
+
+.navspam {
+    color: #4b6cc1;
+}
+
+.navh1 {
+    font-size: 30px;
+    color: white;
+}
+
+.navp {
+    font-size: 20px;
+    color: #9aa5b1;
+}
+
+.navbutton {
+    background-color: #4b6cc1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    border-width: 0px;
+    border-radius: 5px;
+    font-weight: normal;
+}
+
+.fullPageSubContainer{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    width:100%;
+}
+
+.aboutmainfirstheading {
+    font-size: 30px;
+    color: #cced00;
+    font-weight: bold;
+}
+
+.aboutmainsecondheading {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.aboutfirst-main-page {
+    background-color: #323f4b;
+    background-size: cover;
+    width: 100% !important;
+    margin: 0px !important;
+}
+
+.aboutimage {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.aboutp {
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+.aboutsmall-image {
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.aboutlastcontainer {
+    background-color: #323f4b;
+    height: 100px;
+    width: 120px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.aboutdownmainpage {
+    background-color: black;
+    background-size: cover;
+    width: 100% !important;
+}
+
+.projectstotal-page {
+    background-color: #3e4c59;
+    background-size: cover;
+    height: 1500px;
+    padding: 20px;
+}
+
+.projectsfirstheading {
+    color: #cced00;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.projectssecondheading {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.projectscontainers {
+    border-radius: 5px;
+    border-width: 0px;
+    height: 600px;
+    width: 500px;
+    background-color: #323f4b;
+}
+
+.projectsimage {
+    height: 250px;
+}
+
+.projectsheading-3 {
+    color: #9aa5b1;
+    font-size: 15px;
+}
+
+.projectsheading-4 {
+    color: white;
+    font-size: 35px;
+}
+
+.projectspara {
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+.projectsarrow {
+    color: #cced00;
+}
+
+.projectsparaarrow {
+    color: #cced00;
+}
+
+.servicetotal-page {
+    background-color: #52606d;
+    background-size: cover;
+    height: 2500px;
+    padding: 40px;
+}
+
+.servicemainheading {
+    color: #cced00;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.servicesub-heading {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.servicecontainers {
+    background-color: #323f4b;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 10px;
+    height:500px;
+}
+
+.serviceimage {
+    height: 50px;
+    width: 50px;
+}
+
+.servicesubcontainerheading {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.servicesubcontainerpara {
+    font-size: 25px;
+    color: #9aa5b1;
+    font-weight: normal;
+}
+
+.donetotal-page {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+    background-size: cover;
+}
+
+.donecontainers {
+    height: 230px;
+    width: 100px;
+    padding: 10px;
+}
+
+.doneicon {
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+
+.doneline {
+    background-color: white;
+}
+
+.doneh1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.donep {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.Testimonialstotalpage {
+    background-color: #1f2933;
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+}
+
+.Testimonialsmainheading {
+    color: #cced00;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Testimonialsmain-heading {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Testimonialsconatinersws {
+    background-color: #323f4b !important;
+    background-size: cover;
+    padding: 30px !important;
+}
+
+.Testimonialsimage {
+    border-radius: 3000px;
+    border-width: 0px;
+    height: 200px !important;
+    width: 200px !important;
+    flex-shrink: 0;
+}
+
+.Testimonialsparasmall {
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+.Testimonialsparabig {
+    color: white;
+    font-size: 30px;
+}
+
+.footertotalpage {
+    background-color: #0d2436;
+    width: 100%;
+    background-size: cover;
+    padding: 20px;
+}
+
+.footerimage {
+    height: 100px;
+    width: 100px;
+    border-radius: 500px;
+    border-width: 0px;
+}
+
+.footerh1 {
+    color: #cced00;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footerp {
+    color: #9aa5b1;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.footericons {
+    height: 60px !important;
+    width: 30px !important;
+    color: #9aa5b1 !important;
+}
